@@ -1,27 +1,35 @@
-/*Seletor de ID*/
-#receitasPraticas{
-    background-color: aquamarine;
+body {
+    margin: 0;
+    padding: 0;
 }
-/*Seletor de TAG*/
-header {
-    background-color: rgb(175, 245, 245);
+
+topo {
+
+    display: flex;
+    background-size: cover;
+    background-image: url(/atividade2/logo.PNG);
+}
+
+.text {
+    display: flex;
+    justify-content: center;
     text-align: center;
-    border: solid black 2px;
-    border-radius: 5px;
-  }
-  a {
-    text-decoration: none;
-    color: rgb(3, 53, 3);
-    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  }
+}
 
-  /*Seletor de classe*/
-  .artigos {
-    font-family: sans-serif;
-  }
+.paragrafo {
+    text-align: center;
+}
 
-  body{
-    background-color: azure;
-    background-image: url('');
-    
-  }
+.botao {
+    text-align: center;
+}
+
+.pa2 {
+    text-align: center;
+}
+
+.itens {    
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
